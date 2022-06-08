@@ -1,0 +1,42 @@
+.about {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    line-height: 2.2rem;
+    letter-spacing: 1px;
+    img {
+      border-radius: 50%;
+    }
+
+    h2 {
+      font-size: 2.6em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    button {
+      background-color: rgb(101, 61, 247);
+      color: white;
+      padding: 0 20px;
+      border: 2px solid white;
+      border-radius: 5px;
+
+      a {
+        margin: 10px 0;
+        text-decoration: none;
+        color: white;
+        display: block;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
