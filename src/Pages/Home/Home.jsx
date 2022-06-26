@@ -1,13 +1,14 @@
 import Header from "../../components/Header/Header";
-import "font-awesome/css/font-awesome.min.css";
 import Typewriter from "typewriter-effect";
-import hero from "../../images/hero.jpg";
+import "font-awesome/css/font-awesome.min.css";
+
+import { Link } from "react-scroll";
 
 import "./home.scss";
 
 function Home() {
   return (
-    <div className="home">
+    <div id="home" className="home">
       <Header />
       <div className="container">
         <div className="home-inner">
@@ -42,6 +43,15 @@ function Home() {
               </a>
             </div>
           </div>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-118}
+            duration={200}
+            className="Portfolio-down-arrow"
+          ></Link>
         </div>
       </div>
     </div>

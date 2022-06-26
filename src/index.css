@@ -11,3 +11,7 @@ body {
   max-width: 1300px;
   margin: auto;
 }
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
