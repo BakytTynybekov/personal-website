@@ -104,3 +104,15 @@ $peakopacity: 1;
     animation: arrows $speed linear infinite $speed/-2;
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .home {
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .home__info {
+    width: 400px;
+  }
+}

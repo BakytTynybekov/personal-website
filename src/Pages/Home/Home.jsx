@@ -48,7 +48,7 @@ function Home() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-118}
+            offset={0}
             duration={200}
             className="Portfolio-down-arrow"
           ></Link>
